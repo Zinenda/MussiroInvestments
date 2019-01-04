@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-.bolder {
-    font-weight: bolder;
-}
-
-
 @import
     "base",
     "animate-bottom",
@@ -30,6 +25,14 @@
 
 .section-title {
     color: $primary-color;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold
 }
 
 .waves-effect.waves-primary .waves-ripple {
