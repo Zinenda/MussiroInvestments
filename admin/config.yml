@@ -8,6 +8,16 @@ media_folder: "assets/img/uploads"
 
 collections:
   
+  - label: "Quem Somos"
+    name: "quem-somos"
+    create: true
+    folder: "collections/_quem-somos"
+    filter: {field: "lang", value: "pt"}
+    fields:
+      - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Descrição", name: "body", widget: "markdown"}
+
   - label: "Sobre"
     name: "sobre"
     create: true
@@ -16,7 +26,6 @@ collections:
     fields:
       - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Icones", name: "icon", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
 
   - label: "About"
@@ -27,7 +36,6 @@ collections:
     fields:
       - {label: "Language", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Icons", name: "icon", widget: "string"}
       - {label: "Description", name: "body", widget: "markdown"}
 
   - label: "Serviços"

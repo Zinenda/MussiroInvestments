@@ -30,3 +30,15 @@ image: /assets/img/mussiroinvestments.svg
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+collections_dir: collections
+collections:
+  sobre:
+  pessoal:
+  clientes:
+  servicos:
+  produtos:
+  parceiros:
+  quem-somos:
+  representantes:
