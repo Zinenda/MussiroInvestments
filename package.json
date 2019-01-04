@@ -1,0 +1,11 @@
+{
+  "name": "MussiroInvestments",
+  "version": "1.0.0",
+  "description": "The Perfect Choice",
+  "main": "index.js",
+  "author": "Ivo Zinenda",
+  "license": "MIT",
+  "dependencies": {
+    "materialize-css": "next"
+  }
+}

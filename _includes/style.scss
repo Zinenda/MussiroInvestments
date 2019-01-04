@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.bolder {
+    font-weight: bolder;
+}
+
+
+@import
+    "base",
+    "animate-bottom",
+    "materialize/materialize",
+    "parallax"
+;
+
+.primary-color {
+    background-color: $primary-color;
+}
+
+.primary-color-text {
+    color: $primary-color;
+}
+
+.secondary-color {
+    background-color: $primary-color;
+}
+
+.secondary-color-text {
+    color: $primary-color;
+}
+
+.section-title {
+    color: $primary-color;
+}
+
+.waves-effect.waves-primary .waves-ripple {
+   /* The alpha value allows the text and background color
+   of the button to still show through. */
+    background-color: rgba(241, 135, 17, 0.65);
+}

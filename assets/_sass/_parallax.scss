@@ -1,0 +1,48 @@
+
+.page-header {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+    .page-title {
+        width: 50%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        img {
+            background: #fff;
+            mix-blend-mode: screen;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .page-header,
+    .vector-bg,
+    #parceiros {
+      background-attachment: scroll;
+    }
+  }
+
+.vector-bg {
+    background-image: url(/assets/img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#parceiros {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/tech-meeting-flatlay_1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
