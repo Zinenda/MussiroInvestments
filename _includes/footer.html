@@ -3,59 +3,51 @@
         <div class="row">
             <div class="col s12 l4">
                 <h6 class="bolder">
-                    <i class="fas fa-map-marker"></i> 
-                    {% if page.lang == "pt" %}
-                        Endereço - Sede
-                    {% elsif page.lang == "en"%}
-                        Address - Headquarters
-                    {% endif %}
+                    <i class="fas fa-map-marker"></i>
+                    Endereço Sede
                 </h6>
                 <ul>
-                    <li>Av. Chai, Bairro Cariaco</li>
-                    <li>Cidade de Pemba, Cabo Delgado, Moçambique</li>
+                    <li>Av. Chai, Bairro Carico</li>
+                    <li>Cidade de Pemba, Cabo Delgado</li>
+                    <li>Moçambique</li>
                 </ul>
+            </div>
 
+            <div class="col s12 l4">
                 <h6 class="bolder">
-                    <i class="fas fa-map-marker-alt"></i> 
-                    {% if page.lang == "pt" %}
-                        Sucursais - Representantes
-                    {% elsif page.lang == "en"%}
-                        Branches - Representatives
-                    {% endif %}
+                    <i class="fas fa-map-marker-alt"></i>
+                    Sucursais - Representantes
                 </h6>
+
                 <ul>
-                    <li>Maputo, Beira, Tete, Nampula e Nacala-Porto</li>
+                    <li>Tete</li>
+                    <li>Maputo</li>
+                    <li>Nampula</li>
+                    <li>Nacala-Porto</li>
+                    <li>Beira, Sofala</li>
                 </ul>
             </div>
 
             <div class="col s12 l4">
                 <h6 class="bolder">
                     <i class="fas fa-headset"></i> 
-                    {% if page.lang == "pt" %}
-                        Centro de Apoio
-                    {% elsif page.lang == "en"%}
-                        Support Center
-                    {% endif %}
+                    Centro de Apoio
                 </h6>
                 <ul>
                     <li>
-                        <a class="white-text" href="tel:+258 272 20 162">+258 272 20 162</a>
+                        <a class="white-text" href="tel:+258 200 340 79">(+258) 200 340 79</a>
                     </li>
                     <li>
-                        <a class="white-text" href="tel:+258 272 20 166">+258 272 20 166</a>
+                        <a class="white-text" href="tel:+258 84 874 4888"> (+258) 84 874 4888</a>
                     </li>
                     <li>
-                        <a class="white-text" href="tel:+258 87 074 4880">+258 87 074 4880</a>
+                        <a class="white-text" href="tel:+258 86 874 4888">(+258) 86 874 4888</a>
                     </li>
 
                     <li>
                         <a class="white-text" href="mailto:{{ site.email | encode }}">{{ site.email }}</a>
                     </li>
                 </ul>
-            </div>
-
-            <div class="col s12 l4">
-                {% include contactos-socias.html %}
             </div>
         </div>
     </div>
