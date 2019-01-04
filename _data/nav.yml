@@ -2,6 +2,15 @@
   title: Página Inicial
   icon: home
 
-- link: ""
-  title: Página Inicial
-  icon: home
+- link: "#sobre"
+  title: Sobre
+  icon: info
+
+- link: "#servicos"
+  title: Serviços
+  icon: briefcase
+
+- link: "#produtos"
+  title: Produtos
+  icon: folder
+
