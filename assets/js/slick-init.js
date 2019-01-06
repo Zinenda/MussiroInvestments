@@ -44,7 +44,7 @@ $('.slick').slick({
 });
 
 
-$('.slick-sobre').slick({
+$('.slick-servicos').slick({
   dots: true,
   infinite: true,
   speed: 300,
