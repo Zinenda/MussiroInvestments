@@ -35,8 +35,9 @@ image: /assets/img/mussiroinvestments.svg
 collections_dir: collections
 collections:
   sobre:
-  pessoal:
   clientes:
   servicos:
   produtos:
+  parceiros:
   quem-somos:
+  representantes:

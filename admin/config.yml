@@ -35,21 +35,34 @@ collections:
       - {label: "Descrição", name: "body", widget: "markdown"}
       - {label: "Imagem", name: "image", widget: "image"}
 
-
-  - label: "Pessoal"
-    name: "pessoal"
+  - label: "Produtos"
+    name: "produtos"
+    folder: "collections/_produtos"
     create: true
-    folder: "collections/_pessoal"
     fields:
-      - {label: "Foto", name: "image", widget: "image"}
-      - {label: "Nome", name: "title", widget: "string"}
-      - {label: "Cargo", name: "job_title", widget: "string"}
-      - {label: "Telefone-celular", name: "phone", widget: "number"}
-      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Descrição", name: "body", widget: "markdown"}
+      - {label: "Imagem", name: "image", widget: "image"}
 
   - label: "Clientes"
     name: "clientes"
     folder: "collections/_clientes"
+    create: true
+    fields:
+      - {label: "Nome", name: "title", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image"}
+
+  - label: "Representantes"
+    name: "representantes"
+    folder: "collections/_representantes"
+    create: true
+    fields:
+      - {label: "Nome", name: "title", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image"}
+
+  - label: "Parceiros"
+    name: "parceiros"
+    folder: "collections/_parceiros"
     create: true
     fields:
       - {label: "Nome", name: "title", widget: "string"}
