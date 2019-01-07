@@ -1,17 +1,39 @@
-<section id="produtos" class="section scrollspy">
+<section id="produtos" class="section scrollspy primary-color">
     <div class="container">
         <div class="container center">
             {% for item in site.produtos limit: 1 %}
                 <h4 class="section-title bolder">{{ item.title }}</h4>
                 
-                <div class="justify primary-color-text light">
+                <div class="justify light white-text">
                     {{ item.content }}
                 </div>
             {% endfor %}
         </div>
 
-        {% for item in site.produtos limit: 1 %}
-            
-        {% endfor %}
+        <div class="row slick-servicos primary-color-text">
+            {% for item in site.produtos offset: 1 %}
+                <div>
+                    <div class="card medium" style="padding: 10px">
+                        <div class="card-image">
+                            <img src="{{ item.image }}" alt="{{ item.title }}" class="materialboxed" data-caption="{{ item.title }}">
+                        </div>
+
+                        <div class="card-content center">
+                            <p class="bold">{{ item.title }}</p>
+                        </div>
+                        <div class="card-reveal">
+                            <div class="card-title center activator white-text bold">{{ item.title }} <div class="right">&times;</div></div>
+
+                            <div class="light justify">
+                                {{ item.content }}
+                            </div>
+                        </div>
+                        <div class="card-action center">
+                            <button class="btn-flat waves-effect waves-primary activator">Veja Mais</button>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </section>
