@@ -1,11 +1,16 @@
 <div class="fixed-action-btn center">
-    {% if page.lang == "pt" %}
-        <a href="index-en.html" class="btn-floating waves-effect waves-circle waves-light tooltipped" data-position="left" data-delay="50" data-tooltip="English">
-            <i class="fas fa-lg fa-globe"></i>
-        </a>
-        {% elsif page.lang == "en" %}
-            <a href="/" class="btn-floating waves-effect waves-circle waves-light tooltipped" data-position="left" data-delay="50" data-tooltip="Português">
-                <i class="fas fa-lg fa-globe"></i>
-            </a>
-    {% endif %}
+    <button class="btn-floating btn-large waves-effect waves-circle waves-light">
+        <div class="center">
+            <i class="fas fa-bars"></i>
+        </div>
+    </button>
+    <ul>
+        {% for item in site.data.nav %}
+            <li>
+                <a href="{{ item.link }}" class="tooltipped btn-floating waves-effect waves-light" data-position="left" data-delay="50" data-tooltip="{{ item.title }}">
+                    <i class="fas fa-{{ item.icon }}"></i>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 </div>

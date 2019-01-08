@@ -1,8 +1,8 @@
-- link: /
+- link: "#home"
   title: Página Inicial
   icon: home
 
-- link: "#sobre"
+- link: "#quem-somos"
   title: Sobre
   icon: info
 
@@ -13,4 +13,8 @@
 - link: "#produtos"
   title: Produtos
   icon: folder
+
+- link: "#parceiros"
+  title: Parceiros
+  icon: users
 
