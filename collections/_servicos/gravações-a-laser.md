@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Gravações a Laser
 image: /assets/img/uploads/glass-rolex.jpg
 ---
