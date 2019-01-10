@@ -35,7 +35,13 @@
                             </div>
                         </div>
                         <div class="card-action center">
-                            <button class="btn-flat waves-effect waves-primary activator">Veja Mais</button>
+                            <button class="btn-flat waves-effect waves-primary activator">
+                                 {% if page.lang == "pt" %}
+                                    Saiba Mais
+                                    {% elsif page.lang == "en" %}
+                                        Know More
+                                {% endif %}
+                            </button>
                         </div>
                     </div>
                 </div>
