@@ -1,18 +1,18 @@
 ---
-lang: pt
-title: Design Web
+lang: en
+title: Web Design
 image: /assets/img/uploads/pexels-photo.jpg
 ---
-Design, Prototipagem e Desenvolvimento de Páginas Web, desde pessoais a corporativas.
+Design, Prototyping and Development of Web Pages, from personal to corporate.
 
-Somos especializados no desenvolvimento de páginas web responsivas, compatíveis com todo tamanho de tela dos dispositivos eletronicos atuais, como smartphones, tablets, computadores e smartTVs.
+We are specialized in the development of responsive web pages, compatible with every screen size of current electronic devices such as smartphones, tablets, computers and smartTVs.
 
-Visual moderno e amigável, multiplos idiomas, segurança e criptografia de dados, está entre alguns dos recursos que temos a oferecer.
+Visual modern and friendly, multiple languages, security and data encryption, is among some of the features we have to offer.
 
-Desenvolvemos os seguintes tipos de websites:
+We have developed the following types of websites:
 
 * Blogs
-* Portfólios
-* Lojas Online
-* Portais Empresarias
-* Plataformas Digitais online (Sistemas)
+* Portfolios
+* Online stores
+* Business Portals
+* Online Digital Platforms (Systems)
