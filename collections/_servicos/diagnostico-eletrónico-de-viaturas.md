@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Diagnostico Eletrónico de Viaturas
 image: /assets/img/uploads/maxresdefault.jpg
 ---
