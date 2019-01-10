@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Tecnologia Informática
 image: /assets/img/uploads/service-428540_1920.jpg
 ---
