@@ -2,15 +2,14 @@
     <div class="container">
         {% assign produtos=site.produtos | where:"lang", page.lang %}
         <div class="container center">
+            <h4 class="section-title bolder">
+                {% if page.lang == "pt" %}
+                    Produtos
+                    {% elsif page.lang == "en" %}
+                        Products
+                {% endif %}
+            </h4>
             {% for item in produtos limit: 1 %}
-                <h4 class="section-title bolder">
-                    {% if page.lang == "pt" %}
-                        Produtos
-                        {% elsif page.lang == "en" %}
-                            Products
-                    {% endif %}
-                </h4>
-                
                 <div class="justify light white-text">
                     {{ item.content }}
                 </div>

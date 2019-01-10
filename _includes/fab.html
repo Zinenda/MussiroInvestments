@@ -6,5 +6,18 @@
     </button>
     <ul>
         {% include nav.html %}
+        {% if page.lang == "pt" %}
+        <li>
+            <a href="index-en.html" class="btn-floating waves-effect waves-circle waves-light tooltipped" data-position="left" data-delay="50" data-tooltip="English">
+                <i class="fas fa-lg fa-flag-usa"></i>
+            </a>
+        </li>
+        {% elsif page.lang == "en" %}
+            <li>
+                <a href="/" class="btn-floating waves-effect waves-circle waves-light tooltipped" data-position="left" data-delay="50" data-tooltip="Português">
+                    <i class="fas fa-lg fa-flag"></i>
+                </a>
+            </li>
+    {% endif %}
     </ul>
 </div>

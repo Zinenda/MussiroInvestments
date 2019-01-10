@@ -1,8 +1,14 @@
 <header class="page-header">
     <div class="page-title">
-        <a href="/" title="{{ site.title }}">
-            <img src="{{ site.image }}" alt="{{ site.title }}" class="responsive-img" width="200" height="200">
-        </a>
+        {% if page.lang == "pt" %}
+            <a href="/" title="{{ site.title }}">
+                <img src="{{ site.image }}" alt="{{ site.title }}" class="responsive-img" width="200" height="200">
+            </a>
+            {% elsif page.lang == "en" %}
+                <a href="/index-en" title="{{ site.title }}">
+                    <img src="{{ site.image }}" alt="{{ site.title }}" class="responsive-img" width="200" height="200">
+                </a>
+        {% endif %}
         <br><br>
         <a href="#quem-somos" class="btn-large waves-effect waves-light">
             {% if page.lang == "pt" %}
