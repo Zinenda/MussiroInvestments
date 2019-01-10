@@ -1,5 +1,6 @@
 ---
-title: Web Design
+lang: pt
+title: Design Web
 image: /assets/img/uploads/pexels-photo.jpg
 ---
 Design, Prototipagem e Desenvolvimento de Páginas Web, desde pessoais a corporativas.
