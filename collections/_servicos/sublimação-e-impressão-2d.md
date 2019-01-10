@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Sublimação e Impressão 2D
 image: /assets/img/uploads/pexels-photo-259714.jpg
 ---
