@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Aluguer e Venda de Equipamentos
 image: /assets/img/uploads/aluguerdeequipamentos.jpg
 ---
