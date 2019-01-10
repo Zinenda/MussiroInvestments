@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Mídia
 image: /assets/img/uploads/interaction-1233873_1920.jpg
 ---
