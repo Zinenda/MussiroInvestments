@@ -5,12 +5,6 @@
         </div>
     </button>
     <ul>
-        {% for item in site.data.nav %}
-            <li>
-                <a href="{{ item.link }}" class="tooltipped btn-floating waves-effect waves-light" data-position="left" data-delay="50" data-tooltip="{{ item.title }}">
-                    <i class="fas fa-{{ item.icon }}"></i>
-                </a>
-            </li>
-        {% endfor %}
+        {% include nav.html %}
     </ul>
 </div>

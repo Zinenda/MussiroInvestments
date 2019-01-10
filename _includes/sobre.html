@@ -2,11 +2,18 @@
     <div class="container">
         <br><br>
         <div class="container center">
-            <h4 class="section-title bolder">Sobre Nós</h4>
+            <h4 class="section-title bolder">
+                {% if page.lang == "pt" %}
+                    Sobre Nós
+                    {% elsif page.lang == "en" %}
+                        About Us
+                {% endif %}
+            </h4>
         </div>
 
         <div class="container">
-            {% for item in site.sobre limit: 1 %}
+            {% assign sobre=site.sobre | where:"lang", page.lang %}
+            {% for item in sobre limit: 1 %}
                 <div class="justify light">
                     {{ item.content }}
                 </div>
@@ -14,7 +21,7 @@
         </div>
 
         <div class="row">
-            {% for item in site.sobre offset: 1 %}
+            {% for item in sobre offset: 1 %}
                 <div class="col s12 l4">
                     <p class="bold">{{ item.title }}</p>
                     <div class="justify light">

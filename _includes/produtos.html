@@ -1,17 +1,24 @@
 <section id="produtos" class="section scrollspy primary-color">
     <div class="container">
+        {% assign produtos=site.produtos | where:"lang", page.lang %}
         <div class="container center">
-            {% for item in site.produtos limit: 1 %}
-                <h4 class="section-title bolder">{{ item.title }}</h4>
+            {% for item in produtos limit: 1 %}
+                <h4 class="section-title bolder">
+                    {% if page.lang == "pt" %}
+                        Produtos
+                        {% elsif page.lang == "en" %}
+                            Products
+                    {% endif %}
+                </h4>
                 
                 <div class="justify light white-text">
                     {{ item.content }}
                 </div>
             {% endfor %}
         </div>
-
+        
         <div class="row slick-servicos primary-color-text">
-            {% for item in site.produtos offset: 1 %}
+            {% for item in produtos offset: 1 %}
                 <div>
                     <div class="card medium" style="padding: 10px">
                         <div class="card-image">

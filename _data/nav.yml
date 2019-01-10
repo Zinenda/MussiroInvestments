@@ -1,20 +1,51 @@
-- link: "#home"
-  title: Página Inicial
-  icon: home
+pt:
+  Home:
+    title: Página Inicial
+    icon: home
+    link: "#home"
 
-- link: "#quem-somos"
-  title: Sobre
-  icon: info
+  Sobre:
+    title: Sobre
+    icon: info-circle
+    link: "#quem-somos"
 
-- link: "#servicos"
-  title: Serviços
-  icon: briefcase
+  Servicos:
+    title: Serviços
+    icon: briefcase
+    link: "#servicos"
 
-- link: "#produtos"
-  title: Produtos
-  icon: folder
+  Produtos:
+    title: Produtos
+    icon: folder
+    link: "#produtos"
 
-- link: "#parceiros"
-  title: Parceiros
-  icon: users
+  Parceiros:
+    title: Parceiros
+    icon: user-friends
+    link: "#parceiros"
 
+en:
+  Home:
+    title: Home
+    icon: home
+    link: "#home"
+
+  Sobre:
+    title: About Us
+    icon: info-circle
+    link: "#sobre"
+
+  Servicos:
+    title: Services
+    icon: briefcase
+    link: "#servicos"
+
+  Produtos:
+    title: Products
+    icon: folder
+    link: "#produtos"
+
+  Parceiros:
+    title: Partners
+    icon: user-friends
+    link: "#parceiros"

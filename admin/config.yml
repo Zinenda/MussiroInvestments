@@ -12,7 +12,6 @@ collections:
     name: "quem-somos"
     create: true
     folder: "collections/_quem-somos"
-    filter: {field: "lang", value: "pt"}
     fields:
       - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
@@ -23,6 +22,7 @@ collections:
     create: true
     folder: "collections/_sobre"
     fields:
+      - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
 
@@ -31,6 +31,7 @@ collections:
     folder: "collections/_servicos"
     create: true
     fields:
+      - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
       - {label: "Imagem", name: "image", widget: "image"}
@@ -40,6 +41,7 @@ collections:
     folder: "collections/_produtos"
     create: true
     fields:
+      - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
       - {label: "Imagem", name: "image", widget: "image"}

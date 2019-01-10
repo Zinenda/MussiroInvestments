@@ -4,7 +4,11 @@
             <div class="col s12 l4">
                 <h6 class="bolder">
                     <i class="fas fa-map-marker"></i>
-                    Endereço Sede
+                    {% if page.lang == "pt" %}
+						Endereço - Sede
+						{% elsif page.lang == "en" %}
+							Address - Headquarters
+					{% endif %}
                 </h6>
                 <ul>
                     <li>Av. Chai, Bairro Cariaco</li>
@@ -16,7 +20,11 @@
             <div class="col s12 l4">
                 <h6 class="bolder">
                     <i class="fas fa-map-marker-alt"></i>
-                    Sucursais - Representantes
+                    {% if page.lang == "pt" %}
+                        Sucursais - Representantes
+                        {% elsif page.lang == "en" %}
+                            Branches - Representatives
+                    {% endif %}
                 </h6>
 
                 <ul>
@@ -27,7 +35,11 @@
             <div class="col s12 l4">
                 <h6 class="bolder">
                     <i class="fas fa-tty"></i> 
-                    Contactos
+                    {% if page.lang == "pt" %}
+                        Contactos
+                        {% elsif page.lang == "en"%}
+                        Contacts
+                    {% endif %}
                 </h6>
                 <ul>
                     <li>

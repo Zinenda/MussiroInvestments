@@ -1,6 +1,14 @@
 <div id="contactos" class="modal">
     <div class="container">
-        <h5 class="center-align bolder">Contactos</h5>
+        <div class="container">
+            <h5 class="center-align bolder section-title">
+                {% if page.lang == "pt" %}
+                    Contactos
+                    {% elsif page.lang == "en" %}
+                        Contacts
+                {% endif %}
+            </h5>
+        </div>
 
         <form name="Formulário de Contactos" netlify method="post">
             <div class="row">
@@ -9,7 +17,13 @@
                         <div class="input-field">
                             <i class="fas fa-user-circle prefix"></i>
                             <input id="nome" name="Nome Completo" validate type="text" class="validate">
-                            <label for="nome">Nome Completo</label>
+                            <label for="nome">
+                                {% if page.lang == "pt" %}
+                                    Nome Completo
+                                    {% elsif page.lang == "en" %}
+                                        Full Name
+                                {% endif %}
+                            </label>
                         </div>
                     </div>
 
@@ -25,12 +39,24 @@
                         <div class="input-field">
                             <i class="fas fa-comment-alt prefix"></i>
                             <textarea name="Mensagem" id="mensagem" validate class="validate"></textarea>
-                            <label for="mensagem">Mensagem</label>
+                            <label for="mensagem">
+                                {% if page.lang == "pt" %}
+                                    Mensagem
+                                    {% elsif page.lang == "en" %}
+                                        Message
+                                {% endif %}
+                            </label>
                         </div>
                     </div>
 
                     <div class="center">
-                        <button type="submit" class="btn-large waves-effect waves-light">Envie</button>
+                        <button type="submit" class="btn-large waves-effect waves-light">
+                                {% if page.lang == "pt" %}
+                                    Envie
+                                    {% elsif page.lang == "en" %}
+                                        Send It
+                                {% endif %}
+                        </button>
                     </div>
                 </div>
             </div>

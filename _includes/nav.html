@@ -1,7 +1,7 @@
 {% for item in site.data.nav[page.lang] %}
     <li>
-        <a href="{{ item[1].url }}" title="{{ item[1].title }}" class="waves-effect waves-primary">
-            <i class="fas fa-{{ item[1].icon }}"></i> {{ item[1].title }}
+        <a href="{{ item[1].link }}" title="{{ item[1].title }}" class="waves-effect waves-light btn-floating tooltipped" data-position="left" data-delay="50" data-tooltip="{{ item[1].title }}">
+            <i class="fas fa-{{ item[1].icon }}"></i>
         </a>
     </li>
 {% endfor %}

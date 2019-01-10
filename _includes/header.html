@@ -4,7 +4,20 @@
             <img src="{{ site.image }}" alt="{{ site.title }}" class="responsive-img" width="200" height="200">
         </a>
         <br><br>
-        <a href="#quem-somos" class="btn-large waves-effect waves-light">Conheça-nos <i class="fas fa-info-circle"></i></a>
-        <a href="#contactos" class="btn-flat btn-large waves-effect waves-light modal-trigger white-text" style="border: 1px solid #fff;">Contacte-nos <i class="fas fa-envelope"></i></a>
+        <a href="#quem-somos" class="btn-large waves-effect waves-light">
+            {% if page.lang == "pt" %}
+                Conheça-nos
+                {% elsif page.lang == "en" %}
+                    Get to Know Us
+            {% endif %}
+            <i class="fas fa-info-circle"></i>
+        </a>
+        <a href="#contactos" class="btn-flat btn-large waves-effect waves-light modal-trigger white-text" style="border: 1px solid #fff;">
+            {% if page.lang == "pt" %}
+                Contacte-nos
+                {% elsif page.lang == "en" %}
+                    Contact Us
+            {% endif %}
+            <i class="fas fa-envelope"></i></a>
     </div>
 </header>
