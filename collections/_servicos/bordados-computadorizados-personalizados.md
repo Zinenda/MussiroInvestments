@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Bordados Computadorizados & Personalizados
 image: /assets/img/uploads/bordadoscomputadorizados.jpg
 ---

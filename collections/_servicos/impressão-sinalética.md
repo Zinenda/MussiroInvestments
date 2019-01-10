@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Impressão Sinalética
 image: /assets/img/uploads/ee3a5abed0-acrilico-com-afastadores-parede.jpg
 ---

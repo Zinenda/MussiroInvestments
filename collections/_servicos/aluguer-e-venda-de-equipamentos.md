@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Aluguer e Venda de Equipamentos
 image: /assets/img/uploads/aluguerdeequipamentos.jpg
 ---
@@ -11,4 +12,4 @@ image: /assets/img/uploads/aluguerdeequipamentos.jpg
 * Computadores;
 * Fotocopiadoras;
 * Máquinas Fotográficas e de Vídeo;
-* Aparalhagem Sonora e dentre outro
+* Aparelhagem Sonora e dentre outro

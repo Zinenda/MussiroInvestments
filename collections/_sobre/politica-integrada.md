@@ -1,5 +1,6 @@
 ---
-title: Politíca Integrada - Saúde e Segurança, Meio Ambiente e Qualidade
+lang: pt
+title: 'Politíca Integrada - Saúde e Segurança, Meio Ambiente e Qualidade'
 ---
 
 Para nós, o ser humano em sua integridade é um valor que esta acima dos demais objetivos e prioridades da Empresa.

@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: 'Duplicação, Cópia e Reparação de Chaves'
 image: /assets/img/uploads/pexels-photo-1712035.jpg
 ---

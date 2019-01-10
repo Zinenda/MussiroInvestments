@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Fumigação e Proteção Contra Insectos e Controlo de Pragas
 image: /assets/img/uploads/fumigacao.jpg
 ---

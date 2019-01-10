@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Comércio a Retalho
 image: /assets/img/uploads/online-shopping_4460x4460.jpg
 ---
