@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Motores de Portões Deslizantes
 image: /assets/img/uploads/gate.jpg
 ---

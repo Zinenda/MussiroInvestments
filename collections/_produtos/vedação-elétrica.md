@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Vedação Elétrica
 image: >-
   /assets/img/uploads/kit-cerca-eletrica-industrial-c-big-hastes-de-1-metro-e-central-de-choque-power-cr-gcp-completo-150-metros-de-muro_1_1200.jpg

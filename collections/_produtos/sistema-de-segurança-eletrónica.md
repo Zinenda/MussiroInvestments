@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Sistema de Segurança Eletrónica
 image: /assets/img/uploads/cctv-2417559_1280.jpg
 ---

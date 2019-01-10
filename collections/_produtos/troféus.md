@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Troféus
 image: /assets/img/uploads/trophies-710169_1920.jpg
 ---

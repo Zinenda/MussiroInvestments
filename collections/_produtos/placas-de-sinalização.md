@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Placas de Sinalização
 image: >-
   /assets/img/uploads/kit-placas-de-sinalizacao-em-scrap-decoracao-de-festa-construcao.jpg

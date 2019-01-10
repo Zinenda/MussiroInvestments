@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Carimbos
 image: /assets/img/uploads/sc-2000-carimbos.jpg
 ---

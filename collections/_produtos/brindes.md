@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Brindes
 image: /assets/img/uploads/christmas-1869902_1080.jpg
 ---

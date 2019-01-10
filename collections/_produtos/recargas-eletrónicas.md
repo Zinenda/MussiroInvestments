@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Recargas Eletrónicas
 image: /assets/img/uploads/ehopper-bundle-2.jpg
 ---

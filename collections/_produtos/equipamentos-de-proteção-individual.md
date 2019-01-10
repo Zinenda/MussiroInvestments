@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Equipamentos de Proteção Individual
 image: /assets/img/uploads/epi-no-condominio-fr3odljl.jpg
 ---

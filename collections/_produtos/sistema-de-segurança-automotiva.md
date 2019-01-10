@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Sistema de Segurança Automotiva
 image: /assets/img/uploads/auto-1819164_1280.jpg
 ---
