@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: Fotografia
 image: /assets/img/uploads/photography-2188440_1920.jpg
 ---
