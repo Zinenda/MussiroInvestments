@@ -1,6 +1,6 @@
 ---
 lang: pt
-title: Bordados Computadorizados & Personalizados
+title: Serigrafia
 image: /assets/img/uploads/bordadoscomputadorizados.jpg
 ---
 Disponibilizamos serviços de bordados computarizados e personalizados de Bonés, Camisetes, Cestos, Mochilas, Lenços, Toalhas e entre outros.
