@@ -1,7 +1,7 @@
 ---
 lang: pt
 title: 'Serigrafia e Gráfica '
-image: /assets/img/uploads/ea80f227-0aca-486c-a7d6-853b9dcc31a4.jpeg
+image: /assets/img/uploads/serigrafia1.jpg
 ---
 Somos responsáveis pela criação e concepção da sua identidade visual e corporativa.
 
