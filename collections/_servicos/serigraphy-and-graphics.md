@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Serigraphy and Graphics
-image: /assets/img/uploads/ea80f227-0aca-486c-a7d6-853b9dcc31a4.jpeg
+image: /assets/img/uploads/serigrafia1.jpg
 ---
 We are responsible for creating and designing your corporate and visual identity.
 
