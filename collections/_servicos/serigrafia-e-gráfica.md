@@ -7,7 +7,7 @@ Somos responsáveis pela criação e concepção da sua identidade visual e corp
 
 Dinamize o seu negócio ou necessidades, através de uma boa imagem adaptadas as suas exigências.
 
-Nesta área de serviço oferecemos-lhe os melhores \_\*Productos e Serviços\*\_ e com a mais alta qualidade: 
+Nesta área de serviço oferecemos-lhe os melhores _**Productos e Serviços**_ e com a mais alta qualidade: 
 
 \- Impressão Digital
 
