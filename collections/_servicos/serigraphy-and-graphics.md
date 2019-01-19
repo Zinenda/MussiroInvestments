@@ -7,7 +7,7 @@ We are responsible for creating and designing your corporate and visual identity
 
 Streamline your business or needs, through a good image tailored to your requirements.
 
-In this area of ​​service we offer you the best \_ \* Products and Services \* \_ and with the highest quality:
+In this area of ​​service we offer you the best _**Products and Services**_ and with the highest quality:
 
 \- Fingerprint
 
