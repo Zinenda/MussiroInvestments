@@ -6,6 +6,8 @@ backend:
 
 media_folder: "assets/img/uploads"
 
+logo_url: 'https://d33wubrfki0l68.cloudfront.net/f1afd154dd1bd09e6957dce7291bfc56834b4489/b2edb/assets/img/brand/logo.svg'
+
 collections:
   
   - label: "Quem Somos"
@@ -51,21 +53,42 @@ collections:
     folder: "collections/_clientes"
     create: true
     fields:
-      - {label: "Nome", name: "title", widget: "string"}
-      - {label: "Foto", name: "image", widget: "image"}
+      - {label: "Clientes", name: "title", default: "Clientes", widget: "string"}
+      - label: "Cliente"
+        name: "client"
+        widget: "list"
+        fields:
+          - {label: "Empresa", name: "company", widget: "string"}
+          - label: "Logotipo"
+            name: "image"
+            widget: "image"
 
   - label: "Representantes"
     name: "representantes"
     folder: "collections/_representantes"
     create: true
     fields:
-      - {label: "Nome", name: "title", widget: "string"}
-      - {label: "Foto", name: "image", widget: "image"}
+      - {label: "Representantes", name: "title", default: "Representantes", widget: "string"}
+      - label: "Representantes"
+        name: "client"
+        widget: "list"
+        fields:
+          - {label: "Empresa", name: "company", widget: "string"}
+          - label: "Logotipo"
+            name: "image"
+            widget: "image"
 
   - label: "Parceiros"
     name: "parceiros"
     folder: "collections/_parceiros"
     create: true
     fields:
-      - {label: "Nome", name: "title", widget: "string"}
-      - {label: "Foto", name: "image", widget: "image"}
+      - {label: "Parceiros", name: "title", default: "Parceiros", widget: "string"}
+      - label: "Parceiros"
+        name: "client"
+        widget: "list"
+        fields:
+          - {label: "Empresa", name: "company", widget: "string"}
+          - label: "Logotipo"
+            name: "image"
+            widget: "image"
