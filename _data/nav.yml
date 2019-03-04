@@ -14,6 +14,11 @@ pt:
     icon: briefcase
     link: "#servicos"
 
+  Clientes:
+    title: Clientes
+    icon: user-tag
+    link: "#clientes"
+
   Produtos:
     title: Produtos
     icon: folder
@@ -39,6 +44,11 @@ en:
     title: Services
     icon: briefcase
     link: "#servicos"
+
+  Clientes:
+    title: Clients
+    icon: user-tag
+    link: "#clientes"
 
   Produtos:
     title: Products
