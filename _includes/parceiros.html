@@ -2,12 +2,12 @@
     <div class="row slick-clientes">
 		{% for item in site.parceiros.first.client %}
             <div>
-                <img src="{{ item.image }}" alt="{{ item.company }}" style="width: 80px">
+                <img src="{{ item.image }}" alt="{{ item.company }}" style="width: 100px" class="grey-img">
             </div>
         {% endfor %}
         {% for item in site.representantes.first.client %}
             <div>
-                <img src="{{ item.image }}" alt="{{ item.company }}" style="width: 80px">
+                <img src="{{ item.image }}" alt="{{ item.company }}" style="width: 100px" class="grey-img">
             </div>
 		{% endfor %}
     </div>
